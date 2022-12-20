@@ -28,7 +28,7 @@ spec:
           failureThreshold: 3
           httpGet:
             path: /
-            port: 3000
+            port: 3001
             scheme: HTTP
           initialDelaySeconds: 45
           periodSeconds: 10
