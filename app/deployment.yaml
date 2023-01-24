@@ -23,7 +23,7 @@ spec:
       containers:
       - name: spring-petclinic
         imagePullPolicy: Always
-        image: ghcr.io/chenzhenghan83/nodejsapp@sha256:07cf87f56e47b7d981d0b549fc7998abf9ece2f344cd6ef865736bdd97dfb392
+        image: ghcr.io/chenzhenghan83/nodejsapp@sha256:f90e19d8df9ee2c82711b3a2e5481418297a8f954f7aa9eb3445157d65360146
         livenessProbe:
           failureThreshold: 3
           httpGet:
